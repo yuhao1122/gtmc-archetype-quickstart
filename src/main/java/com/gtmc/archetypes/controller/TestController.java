@@ -14,7 +14,6 @@ public class TestController {
     @GetMapping("/")
     public String test() {
         System.out.println(1111);
-        System.out.println(1111);
         System.err.println(2222);
         return "Hello World12345";
     }
