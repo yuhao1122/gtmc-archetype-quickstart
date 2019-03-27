@@ -4,9 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description：
- * @Auther：Mr.Yu
- * @Date：2019/3/27 10:17
+ * @author 12345
  */
 @RestController
 public class TestController {
@@ -19,6 +17,7 @@ public class TestController {
     }
 
     public void sayHi() {
+        System.err.println(1/0);
         System.err.println(1234567);
     }
 
