@@ -18,4 +18,8 @@ public class TestController {
         return "Hello World12345";
     }
 
+    public void sayHi() {
+        System.err.println(1234567);
+    }
+
 }
